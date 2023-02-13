@@ -21,3 +21,32 @@
    padding: 10px;
    /* display: inline-block; */
 }
+
+/* ----- DEBUG ----- */
+
+div{
+   border: 2px dashed blue;
+   height: 100%;
+}
+
+
+
+/* ----- JUMBOTRON ----- */
+
+#jumbotron{
+   margin-top: 60px;
+}
+
+#jumbotron, #about{
+   background-color: #1ABC9C;
+}
+
+#jumbotron img{
+   height: 60%;
+}
+
+/* ----- PORTFOLIO ----- */
+
+#portfolio img{
+   width: 100%;
+}
