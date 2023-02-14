@@ -23,9 +23,8 @@ nav, footer, .dash{
 }
 
 section{
-   scroll-margin-top: 60px;
+   scroll-margin-top: 55px;
 }
-
 
 /* ----- JUMBOTRON ----- */
 
@@ -33,8 +32,9 @@ section{
    margin-top: 55px;
 }
 
-#jumbotron, #about{
+#jumbotron, #about, .ms_btn_send{
    background-color: #1ABC9C;
+   border: none;
 }
 
 #jumbotron img{
@@ -47,9 +47,27 @@ section{
    width: 100%;
 }
 
-/* <div class="invalid-feedback">
-Please choose a username.
-</div> */
+.overlay{
+   display: none;
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(26, 188, 156, 0.9);
+}
+
+.overlay .fa-plus{
+   font-size: 5rem;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.over:hover .overlay{
+   display: inline-block;
+}
 
 #contact .form-control:focus{
    box-shadow: none;
@@ -61,4 +79,8 @@ footer .rounded-circle{
 .mc-icon{
    width: 4rem;
    height: 4rem;
+}
+
+.ms_bg_light{
+   background-color: #3A546D;
 }

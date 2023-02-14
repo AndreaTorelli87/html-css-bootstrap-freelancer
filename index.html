@@ -47,23 +47,42 @@
                     <div class="text-black d-flex align-items-center justify-content-center pb-3"><div class="dash"></div><i class="fa-solid fa-star"></i><div class="dash"></div></div>
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         <div class="col">
-                            <div><img class="rounded-3" src="img/cabin.png" alt="img1"></div>
+                            <div class="over position-relative">
+                                <img class="rounded-3" src="img/cabin.png" alt="img1">
+                                <div class="overlay rounded-3"><i class="fa-solid fa-plus text-white"></i></div>
+                            </div>
                         </div>
                         <div class="col">
-                            <div><img class="rounded-3" src="img/cake.png" alt="img2"></div>
+                            <div class="over position-relative">
+                                <img class="rounded-3" src="img/cake.png" alt="img2">
+                                <div class="overlay rounded-3"><i class="fa-solid fa-plus text-white"></i></div>
+                            </div>
                         </div>
                         <div class="col">
-                            <div><img class="rounded-3" src="img/circus.png" alt="img3"></div>
+                            <div class="over position-relative">
+                                <img class="rounded-3" src="img/circus.png" alt="img3">
+                                <div class="overlay rounded-3"><i class="fa-solid fa-plus text-white"></i></div>
+                            </div>
                         </div>
                         <div class="col">
-                            <div><img class="rounded-3" src="img/game.png" alt="img4"></div>
+                            <div class="over position-relative">
+                                <img class="rounded-3" src="img/game.png" alt="img4">
+                                <div class="overlay rounded-3"><i class="fa-solid fa-plus text-white"></i></div>
+                            </div>
                         </div>
                         <div class="col">
-                            <div><img class="rounded-3" src="img/safe.png" alt="img5"></div>
+                            <div class="over position-relative">
+                                <img class="rounded-3" src="img/safe.png" alt="img5">
+                                <div class="overlay rounded-3"><i class="fa-solid fa-plus text-white"></i></div>
+                            </div>
                         </div>
                         <div class="col">
-                            <div><img class="rounded-3" src="img/submarine.png" alt="img6"></div>
+                            <div class="over position-relative">
+                                <img class="rounded-3" src="img/submarine.png" alt="img6">
+                                <div class="overlay rounded-3"><i class="fa-solid fa-plus text-white"></i></div>
+                            </div>
                         </div>
+                        
                     </div> 
                 </div>
             </section>
@@ -92,7 +111,7 @@
                 <div class="container">
                     <h2 class="text-center">CONTRACT ME</h2>
                     <div class="text-black d-flex align-items-center justify-content-center pb-3"><div class="dash"></div><i class="fa-solid fa-star"></i><div class="dash"></div></div>
-                    <div class="row">
+                    <div>
                         <div class="form-floating mb-3 border-bottom">
                             <input type="text" class="form-control border-0" id="floatingInput" placeholder="Name">
                             <label for="floatingInput">Name</label> 
@@ -109,7 +128,7 @@
                             <input type="text-area" class="form-control border-0" id="floatingInput" placeholder="Message">
                             <label for="floatingInput">Message</label> 
                         </div>
-                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        <button class="ms_btn_send btn btn-primary" type="button">Send</button>
                     </div>
                 </div>
             </section>
@@ -117,35 +136,38 @@
 
         <!------- FOOTER ------->
         <footer class="text-white text-center">
-            <div class="container p-5">
-                <div class="row row-cols-1 row-cols-md-3 g-5">
-                    <div class="col">
-                        <h6>LOCATION</h6>
-                        <p>2215 Hohn Daniel Drive Clark, MO 54243</p>
-                    </div>
-                    <div class="col">
-                        <h5>AROUND THE WEB</h5>
-                        <div class="row row-cols-4 justify-content-center">
-                            <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </button>
-                            <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
-                                <i class="fa-brands fa-google-plus-g"></i>
-                            </button>
-                            <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
-                                <i class="fa-brands fa-twitter"></i>
-                            </button>
-                            <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </button>
+            <section class="ms_bg_light">
+                <div class="container p-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-5">
+                        <div class="col">
+                            <h6>LOCATION</h6>
+                            <p>2215 Hohn Daniel Drive Clark, MO 54243</p>
+                        </div>
+                        <div class="col">
+                            <h5>AROUND THE WEB</h5>
+                            <div class="row row-cols-4 justify-content-center">
+                                <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </button>
+                                <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </button>
+                                <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </button>
+                                <button class="btn btn-outline-light rounded-circle mx-2 col mc-icon">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h6>ABOUT FREELANCER</h6>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/previews/freelancer">Start Bootstrap</a>.</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <h6>ABOUT FREELANCER</h6>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/">Start Bootstrap</a>.</p>
-                    </div>
                 </div>
-            </div>
+            </section>
+            
             <div class="container p-5">
                 <span>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2023</span>
             </div>
